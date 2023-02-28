@@ -20,6 +20,8 @@ function movimentaAtor(){
   }
 }
 
+// verifica colisão, caso ocorra o ator volta para a posição inicial, é verificado e o jogador tem mais do que 0 pontos, e caso tenha um ponto é deduzido do placar
+
 function verificaColisao(){
   for (let i = 0; i < imagemCarros.length; i++){
     colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15 )

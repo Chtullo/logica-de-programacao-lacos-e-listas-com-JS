@@ -26,6 +26,7 @@ function voltaPosicaoInicialDoCarro(){
  }
 }
 
+// função que verifica se o carro atravessou toda a tela, caso sim ele volta para a posição inicial, funcionando em loop
 function passouTodaATela(xCarro){
   return xCarro < -50
 }
